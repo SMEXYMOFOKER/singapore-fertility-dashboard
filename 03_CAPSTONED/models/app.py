@@ -8,8 +8,8 @@ st.set_page_config(page_title="Singapore Fertility Intelligence", layout="wide")
 theme_base = st.get_option("theme.base")
 plotly_template = "plotly_dark" if theme_base == "dark" else "plotly"
 
-ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(ROOT_DIR, "..", "data_cleaned")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "..", "data_cleaned")
 
 TFR_CSV = os.path.join(DATA_DIR, "tfr_cleaned.csv")
 BIRTHS_CSV = os.path.join(DATA_DIR, "births_cleaned.csv")
