@@ -1,0 +1,4 @@
+Column Name,Data Type,Description,Unit of Measurement
+Data Series,object,Fertility indicator name,Text
+Year,int64,Calendar year,Year
+Total_Fertility_Rate,float64,Total Fertility Rate (TFR),Live births per female
