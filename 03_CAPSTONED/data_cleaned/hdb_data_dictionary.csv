@@ -1,3 +1,0 @@
-Column Name,Data Type,Description,Unit of Measurement
-Year,int64,Calendar year,Year
-HDB_Resale_Index,float64,Annual average HDB Resale Price Index,Index (Base 100)

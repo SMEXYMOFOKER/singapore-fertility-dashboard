@@ -1,4 +1,0 @@
-Column Name,Data Type,Description,Unit of Measurement
-Data Series,object,Birth order category,Text
-Year,int64,Calendar year,Year
-Birth_Count,int64,Number of resident live births,Count
