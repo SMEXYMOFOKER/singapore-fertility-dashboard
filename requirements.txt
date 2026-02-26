@@ -1,9 +1,10 @@
-matplotlib
-numpy
+streamlit
 pandas
-plotly
+numpy
 scikit-learn
-scipy
+matplotlib
+plotly
 seaborn
+scipy
 statsmodels
-streamlitaltair
+altair
