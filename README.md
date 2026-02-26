@@ -228,5 +228,5 @@ This project provides a structured foundation for further fertility trend analys
 
 ## Explore in Dashboard
 
-The dashboard shows interactive charts of fertility rates, births, and model predictions:
+The dashboard shows interactive charts of fertility rates, births, and model predictions:  
 https://singapore-fertility-dashboard-euc6y6gpyhghfr3fjlnbgm.streamlit.app/
