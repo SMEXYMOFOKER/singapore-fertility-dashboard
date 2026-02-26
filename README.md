@@ -225,3 +225,8 @@ Future work could include:
 * Higher frequency data if available
 
 This project provides a structured foundation for further fertility trend analysis.
+
+## Explore in Dashboard
+
+The dashboard shows interactive charts of fertility rates, births, and model predictions:
+https://singapore-fertility-dashboard-euc6y6gpyhghfr3fjlnbgm.streamlit.app/
