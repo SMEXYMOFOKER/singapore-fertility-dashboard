@@ -1,26 +1,13 @@
 # =========================
-# DEFAULT: ignore everything
+# Ignore everything by default
 # =========================
 *
 
 # =========================
-# Allow folders
+# Allow 03_CAPSTONED folder
 # =========================
-!*/
-
-# =========================
-# Allow source & notebooks
-# =========================
-!*.py
-!*.ipynb
-!*.md
-!*.txt
-
-# =========================
-# Allow repo control files
-# =========================
-!.gitignore
-!requirements.txt
+!03_CAPSTONED/
+!03_CAPSTONED/**
 
 # =========================
 # Always ignore environments
@@ -32,18 +19,3 @@ __pycache__/
 .ipynb_checkpoints/
 .vscode/
 .DS_Store
-
-# =========================
-# Block data & large files
-# =========================
-*.csv
-*.xlsx
-*.parquet
-*.json
-*.pkl
-*.png
-*.jpg
-*.pdf
-*.docx
-*.twbx
-*.html
