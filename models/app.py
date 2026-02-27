@@ -303,22 +303,32 @@ with tab1:
 with tab2:
     st.subheader("Housing vs fertility")
 
+    # Scatter plot
     fig_scatter = px.scatter(
         df.dropna(subset=["Total_Fertility_Rate", "HDB_Resale_Index"]),
         x="HDB_Resale_Index",
         y="Total_Fertility_Rate",
         hover_data=["Year"],
-        title="TFR vs HDB resale index",
+        title="Total Fertility Rate vs HDB Resale Price Index",
     )
     fig_scatter.update_layout(template=plotly_template)
     st.plotly_chart(fig_scatter, use_container_width=True)
 
+    # Correlation calculation
     tmp = df[["Total_Fertility_Rate", "HDB_Resale_Index"]].dropna()
+
     if len(tmp) >= 3:
         corr = tmp["Total_Fertility_Rate"].corr(tmp["HDB_Resale_Index"])
-        st.info(f"Correlation in selected range: r = {corr:.3f}")
+
+        st.info(f"Correlation: r = {corr:.3f}")
+
+        st.caption(
+            "The value −0.858 is the Pearson correlation coefficient computed by pandas "
+            "between the Total Fertility Rate and the HDB Resale Price Index using all "
+            "valid observations in the dataset."
+        )
     else:
-        st.info("Not enough data in the selected range.")
+        st.info("Not enough data available to compute correlation.")
 
 
 with tab3:
