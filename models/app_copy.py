@@ -431,4 +431,4 @@ with tab4:
     st.plotly_chart(fig_forecast, use_container_width=True)
 
 st.caption("Data: 03_CAPSTONED/data_cleaned | Streamlit + Plotly")
-# streamlit run /Users/smexymofoker/Documents/PYTHON/03_CAPSTONED/models/app.py
+# streamlit run /Users/smexymofoker/Documents/PYTHON/03_CAPSTONED/models/app_copy.py
